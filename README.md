@@ -18,7 +18,7 @@ You can also go inside of the Users folder, or any folder you please.
 ``` mklink /d linknamehere driveletter:\folder ```<br>
 
 - This makes a Directory Symbolic Link at the CMD location.
-> For example if your CMD says its at `D:\FileBrowser\users>`, the DSL will be made there.<br?
+> For example if your CMD says its at `D:\FileBrowser\users>`, the DSL will be made there.<br>
 
 ## Example:
 - If we did: ```D:\FileBrowser\users> mklink /d origin F:\target```
@@ -27,6 +27,3 @@ This would make a DSL Folder called `origin` inside of `D:\FileBrowser\users`<br
 that would connect it to `F:\target`.<br>
 
 If you gave a user the <b>scope</b> of `\users\origin` they will now see <br>inside of `F:\target` instead along with its current storage size.
-
-
-
